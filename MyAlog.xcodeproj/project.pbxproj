@@ -18,6 +18,7 @@
 		E2AE06881C36B3C70091E364 /* NSString+hexToBytes.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE06851C36B3C70091E364 /* NSString+hexToBytes.m */; };
 		E2AE06891C36B3C70091E364 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE06871C36B3C70091E364 /* NSString+MD5Addition.m */; };
 		E2AE06901C36B3ED0091E364 /* MyEncodeAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE068F1C36B3ED0091E364 /* MyEncodeAlgorithm.m */; };
+		E2AE06941C36BDCB0091E364 /* CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE06931C36BDCB0091E364 /* CRC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		E2AE068D1C36B3ED0091E364 /* MyBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBase64.h; sourceTree = "<group>"; };
 		E2AE068E1C36B3ED0091E364 /* MyEncodeAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEncodeAlgorithm.h; sourceTree = "<group>"; };
 		E2AE068F1C36B3ED0091E364 /* MyEncodeAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEncodeAlgorithm.m; sourceTree = "<group>"; };
+		E2AE06931C36BDCB0091E364 /* CRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				E2AE068A1C36B3ED0091E364 /* CRC.h */,
+				E2AE06931C36BDCB0091E364 /* CRC.m */,
 				E2AE068B1C36B3ED0091E364 /* GTMBase64.h */,
 				E2AE068C1C36B3ED0091E364 /* GTMDefines.h */,
 				E2AE068D1C36B3ED0091E364 /* MyBase64.h */,
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AE06941C36BDCB0091E364 /* CRC.m in Sources */,
 				E2AE06591C36B3A00091E364 /* ViewController.m in Sources */,
 				E2AE06891C36B3C70091E364 /* NSString+MD5Addition.m in Sources */,
 				E2AE06561C36B3A00091E364 /* AppDelegate.m in Sources */,
@@ -522,6 +526,7 @@
 				E2AE067D1C36B3A00091E364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2AE067E1C36B3A00091E364 /* Build configuration list for PBXNativeTarget "MyAlogTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +535,7 @@
 				E2AE06801C36B3A00091E364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2AE06811C36B3A00091E364 /* Build configuration list for PBXNativeTarget "MyAlogUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +544,7 @@
 				E2AE06831C36B3A00091E364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
