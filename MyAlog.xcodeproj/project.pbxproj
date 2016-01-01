@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2AE06531C36B3A00091E364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE06521C36B3A00091E364 /* main.m */; };
+		E2AE06561C36B3A00091E364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE06551C36B3A00091E364 /* AppDelegate.m */; };
+		E2AE06591C36B3A00091E364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE06581C36B3A00091E364 /* ViewController.m */; };
+		E2AE065C1C36B3A00091E364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AE065A1C36B3A00091E364 /* Main.storyboard */; };
+		E2AE065E1C36B3A00091E364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AE065D1C36B3A00091E364 /* Assets.xcassets */; };
+		E2AE06611C36B3A00091E364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AE065F1C36B3A00091E364 /* LaunchScreen.storyboard */; };
+		E2AE066C1C36B3A00091E364 /* MyAlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE066B1C36B3A00091E364 /* MyAlogTests.m */; };
+		E2AE06771C36B3A00091E364 /* MyAlogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE06761C36B3A00091E364 /* MyAlogUITests.m */; };
+		E2AE06881C36B3C70091E364 /* NSString+hexToBytes.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE06851C36B3C70091E364 /* NSString+hexToBytes.m */; };
+		E2AE06891C36B3C70091E364 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE06871C36B3C70091E364 /* NSString+MD5Addition.m */; };
+		E2AE06901C36B3ED0091E364 /* MyEncodeAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AE068F1C36B3ED0091E364 /* MyEncodeAlgorithm.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2AE06681C36B3A00091E364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2AE06461C36B3A00091E364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2AE064D1C36B3A00091E364;
+			remoteInfo = MyAlog;
+		};
+		E2AE06731C36B3A00091E364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2AE06461C36B3A00091E364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2AE064D1C36B3A00091E364;
+			remoteInfo = MyAlog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2AE064E1C36B3A00091E364 /* MyAlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AE06521C36B3A00091E364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2AE06541C36B3A00091E364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2AE06551C36B3A00091E364 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2AE06571C36B3A00091E364 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2AE06581C36B3A00091E364 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2AE065B1C36B3A00091E364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2AE065D1C36B3A00091E364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2AE06601C36B3A00091E364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2AE06621C36B3A00091E364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AE06671C36B3A00091E364 /* MyAlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AE066B1C36B3A00091E364 /* MyAlogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlogTests.m; sourceTree = "<group>"; };
+		E2AE066D1C36B3A00091E364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AE06721C36B3A00091E364 /* MyAlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AE06761C36B3A00091E364 /* MyAlogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlogUITests.m; sourceTree = "<group>"; };
+		E2AE06781C36B3A00091E364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AE06841C36B3C70091E364 /* NSString+hexToBytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hexToBytes.h"; sourceTree = "<group>"; };
+		E2AE06851C36B3C70091E364 /* NSString+hexToBytes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hexToBytes.m"; sourceTree = "<group>"; };
+		E2AE06861C36B3C70091E364 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		E2AE06871C36B3C70091E364 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		E2AE068A1C36B3ED0091E364 /* CRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRC.h; sourceTree = "<group>"; };
+		E2AE068B1C36B3ED0091E364 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		E2AE068C1C36B3ED0091E364 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		E2AE068D1C36B3ED0091E364 /* MyBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBase64.h; sourceTree = "<group>"; };
+		E2AE068E1C36B3ED0091E364 /* MyEncodeAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEncodeAlgorithm.h; sourceTree = "<group>"; };
+		E2AE068F1C36B3ED0091E364 /* MyEncodeAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEncodeAlgorithm.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2AE064B1C36B3A00091E364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AE06641C36B3A00091E364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AE066F1C36B3A00091E364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2AE06451C36B3A00091E364 = {
+			isa = PBXGroup;
+			children = (
+				E2AE06501C36B3A00091E364 /* MyAlog */,
+				E2AE066A1C36B3A00091E364 /* MyAlogTests */,
+				E2AE06751C36B3A00091E364 /* MyAlogUITests */,
+				E2AE064F1C36B3A00091E364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2AE064F1C36B3A00091E364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2AE064E1C36B3A00091E364 /* MyAlog.app */,
+				E2AE06671C36B3A00091E364 /* MyAlogTests.xctest */,
+				E2AE06721C36B3A00091E364 /* MyAlogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2AE06501C36B3A00091E364 /* MyAlog */ = {
+			isa = PBXGroup;
+			children = (
+				E2AE068A1C36B3ED0091E364 /* CRC.h */,
+				E2AE068B1C36B3ED0091E364 /* GTMBase64.h */,
+				E2AE068C1C36B3ED0091E364 /* GTMDefines.h */,
+				E2AE068D1C36B3ED0091E364 /* MyBase64.h */,
+				E2AE068E1C36B3ED0091E364 /* MyEncodeAlgorithm.h */,
+				E2AE068F1C36B3ED0091E364 /* MyEncodeAlgorithm.m */,
+				E2AE06841C36B3C70091E364 /* NSString+hexToBytes.h */,
+				E2AE06851C36B3C70091E364 /* NSString+hexToBytes.m */,
+				E2AE06861C36B3C70091E364 /* NSString+MD5Addition.h */,
+				E2AE06871C36B3C70091E364 /* NSString+MD5Addition.m */,
+				E2AE06541C36B3A00091E364 /* AppDelegate.h */,
+				E2AE06551C36B3A00091E364 /* AppDelegate.m */,
+				E2AE06571C36B3A00091E364 /* ViewController.h */,
+				E2AE06581C36B3A00091E364 /* ViewController.m */,
+				E2AE065A1C36B3A00091E364 /* Main.storyboard */,
+				E2AE065D1C36B3A00091E364 /* Assets.xcassets */,
+				E2AE065F1C36B3A00091E364 /* LaunchScreen.storyboard */,
+				E2AE06621C36B3A00091E364 /* Info.plist */,
+				E2AE06511C36B3A00091E364 /* Supporting Files */,
+			);
+			path = MyAlog;
+			sourceTree = "<group>";
+		};
+		E2AE06511C36B3A00091E364 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2AE06521C36B3A00091E364 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2AE066A1C36B3A00091E364 /* MyAlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2AE066B1C36B3A00091E364 /* MyAlogTests.m */,
+				E2AE066D1C36B3A00091E364 /* Info.plist */,
+			);
+			path = MyAlogTests;
+			sourceTree = "<group>";
+		};
+		E2AE06751C36B3A00091E364 /* MyAlogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2AE06761C36B3A00091E364 /* MyAlogUITests.m */,
+				E2AE06781C36B3A00091E364 /* Info.plist */,
+			);
+			path = MyAlogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2AE064D1C36B3A00091E364 /* MyAlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AE067B1C36B3A00091E364 /* Build configuration list for PBXNativeTarget "MyAlog" */;
+			buildPhases = (
+				E2AE064A1C36B3A00091E364 /* Sources */,
+				E2AE064B1C36B3A00091E364 /* Frameworks */,
+				E2AE064C1C36B3A00091E364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAlog;
+			productName = MyAlog;
+			productReference = E2AE064E1C36B3A00091E364 /* MyAlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2AE06661C36B3A00091E364 /* MyAlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AE067E1C36B3A00091E364 /* Build configuration list for PBXNativeTarget "MyAlogTests" */;
+			buildPhases = (
+				E2AE06631C36B3A00091E364 /* Sources */,
+				E2AE06641C36B3A00091E364 /* Frameworks */,
+				E2AE06651C36B3A00091E364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2AE06691C36B3A00091E364 /* PBXTargetDependency */,
+			);
+			name = MyAlogTests;
+			productName = MyAlogTests;
+			productReference = E2AE06671C36B3A00091E364 /* MyAlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2AE06711C36B3A00091E364 /* MyAlogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AE06811C36B3A00091E364 /* Build configuration list for PBXNativeTarget "MyAlogUITests" */;
+			buildPhases = (
+				E2AE066E1C36B3A00091E364 /* Sources */,
+				E2AE066F1C36B3A00091E364 /* Frameworks */,
+				E2AE06701C36B3A00091E364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2AE06741C36B3A00091E364 /* PBXTargetDependency */,
+			);
+			name = MyAlogUITests;
+			productName = MyAlogUITests;
+			productReference = E2AE06721C36B3A00091E364 /* MyAlogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2AE06461C36B3A00091E364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DM;
+				TargetAttributes = {
+					E2AE064D1C36B3A00091E364 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E2AE06661C36B3A00091E364 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E2AE064D1C36B3A00091E364;
+					};
+					E2AE06711C36B3A00091E364 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E2AE064D1C36B3A00091E364;
+					};
+				};
+			};
+			buildConfigurationList = E2AE06491C36B3A00091E364 /* Build configuration list for PBXProject "MyAlog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2AE06451C36B3A00091E364;
+			productRefGroup = E2AE064F1C36B3A00091E364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2AE064D1C36B3A00091E364 /* MyAlog */,
+				E2AE06661C36B3A00091E364 /* MyAlogTests */,
+				E2AE06711C36B3A00091E364 /* MyAlogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2AE064C1C36B3A00091E364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AE06611C36B3A00091E364 /* LaunchScreen.storyboard in Resources */,
+				E2AE065E1C36B3A00091E364 /* Assets.xcassets in Resources */,
+				E2AE065C1C36B3A00091E364 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AE06651C36B3A00091E364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AE06701C36B3A00091E364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2AE064A1C36B3A00091E364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AE06591C36B3A00091E364 /* ViewController.m in Sources */,
+				E2AE06891C36B3C70091E364 /* NSString+MD5Addition.m in Sources */,
+				E2AE06561C36B3A00091E364 /* AppDelegate.m in Sources */,
+				E2AE06901C36B3ED0091E364 /* MyEncodeAlgorithm.m in Sources */,
+				E2AE06881C36B3C70091E364 /* NSString+hexToBytes.m in Sources */,
+				E2AE06531C36B3A00091E364 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AE06631C36B3A00091E364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AE066C1C36B3A00091E364 /* MyAlogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AE066E1C36B3A00091E364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AE06771C36B3A00091E364 /* MyAlogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2AE06691C36B3A00091E364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2AE064D1C36B3A00091E364 /* MyAlog */;
+			targetProxy = E2AE06681C36B3A00091E364 /* PBXContainerItemProxy */;
+		};
+		E2AE06741C36B3A00091E364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2AE064D1C36B3A00091E364 /* MyAlog */;
+			targetProxy = E2AE06731C36B3A00091E364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2AE065A1C36B3A00091E364 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2AE065B1C36B3A00091E364 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2AE065F1C36B3A00091E364 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2AE06601C36B3A00091E364 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2AE06791C36B3A00091E364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2AE067A1C36B3A00091E364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2AE067C1C36B3A00091E364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyAlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ltlab.edu.MyAlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2AE067D1C36B3A00091E364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyAlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ltlab.edu.MyAlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2AE067F1C36B3A00091E364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyAlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ltlab.edu.MyAlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAlog.app/MyAlog";
+			};
+			name = Debug;
+		};
+		E2AE06801C36B3A00091E364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyAlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ltlab.edu.MyAlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAlog.app/MyAlog";
+			};
+			name = Release;
+		};
+		E2AE06821C36B3A00091E364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyAlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ltlab.edu.MyAlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyAlog;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E2AE06831C36B3A00091E364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyAlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ltlab.edu.MyAlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyAlog;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2AE06491C36B3A00091E364 /* Build configuration list for PBXProject "MyAlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AE06791C36B3A00091E364 /* Debug */,
+				E2AE067A1C36B3A00091E364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2AE067B1C36B3A00091E364 /* Build configuration list for PBXNativeTarget "MyAlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AE067C1C36B3A00091E364 /* Debug */,
+				E2AE067D1C36B3A00091E364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2AE067E1C36B3A00091E364 /* Build configuration list for PBXNativeTarget "MyAlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AE067F1C36B3A00091E364 /* Debug */,
+				E2AE06801C36B3A00091E364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2AE06811C36B3A00091E364 /* Build configuration list for PBXNativeTarget "MyAlogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AE06821C36B3A00091E364 /* Debug */,
+				E2AE06831C36B3A00091E364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2AE06461C36B3A00091E364 /* Project object */;
+}
